@@ -38,7 +38,7 @@ class Navigation extends React.Component {
                 />
               </Link>
             </Navbar.Brand>
-            <a href="mailto:twolectronics@gmail.com">Inquire Here</a>
+            <a href="mailto:twolectronics@gmail.com">Order Here</a>
           </Navbar>
         </div>
       </Container>

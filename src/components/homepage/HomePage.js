@@ -51,7 +51,7 @@ class HomePage extends React.Component {
                 justifyContent: "center",
                 alignItems: "center",
                 width: "100%",
-                height: "60vh"
+                height: "100vh"
               }}
             >
               {/**Icon */}
@@ -96,8 +96,7 @@ class HomePage extends React.Component {
                   textAlign:"center",
                 }}
               >
-              2LE Properties has storage units, garage space, and empty land for storing anything you need. Please contact (320) 333-8531 for more information.
-              
+              2LE Masks provides PPE for clinics, hospitals, nursing homes, and individuals. By partnering with an FDA approved factory in Shanghai, China, 2LE Masks brings the Chinese expertise in working with the coronavirus to the United States. Our primary product is the highly sought after KN-95 mask, shown to the left. We are selling these at $3 per mask for orders of any size. All equipment is stored in the United States, allowing for quick delivery.
               </Col>
               <Col md={6} sm={12}
               style={{
@@ -111,7 +110,87 @@ class HomePage extends React.Component {
                 fluid
                 style={{ padding: 0 }}
                 className="dash-graphic"
-                src={require("./images/unit.jpg")}
+                src={require("./images/mask.JPG")}
+              />
+              </Col>
+            </Row>
+          </Container>
+        </Container>
+        {/**MASKS SECTION */}
+        <Container
+          fluid
+          className="boxShadowed"
+          style={{ backgroundColor: "#202020", color: "#dddddd" }}
+        >
+          <Container>
+            <Row
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+              }}
+            >
+              <h3 className="homepageTitle" style={{ marginBottom: "20px" }}>
+                KN-95 Masks
+              </h3>
+            </Row>
+            <Row>
+            <Col
+                md={6}
+                sm={12}
+                style={{
+                  fontFamily: "Lora",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  textAlign:"center",
+                }}
+              >
+              Packaging
+              </Col>
+              <Col
+                md={6}
+                sm={12}
+                style={{
+                  fontFamily: "Lora",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  textAlign:"center",
+                }}
+              >
+              Features
+              </Col>
+            </Row>
+            <Row>
+              <Col md={6} sm={12}
+              style={{
+                  fontFamily: "Lora",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  textAlign:"center",
+                }}>
+              <Image
+                fluid
+                style={{ padding: 0 }}
+                className="dash-graphic"
+                src={require("./images/packaging.JPG")}
+              />
+              </Col>
+              <Col md={6} sm={12}
+              style={{
+                  fontFamily: "Lora",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  textAlign:"center",
+                }}>
+              <Image
+                fluid
+                style={{ padding: 0 }}
+                className="dash-graphic"
+                src={require("./images/mask_advantages.JPG")}
               />
               </Col>
             </Row>
@@ -142,7 +221,7 @@ class HomePage extends React.Component {
                   textAlign:"center"
                 }}
               >
-              Luke and Luke went to high school together and after selling electronics for a couple years, moved into real estate.
+              Luke and Luke went to high school together and after selling electronics for a couple years, moved into personal protective equipment to address the ballooning demand in the United States due to the coronavirus.
               </Col>
               <Col
                 lg={4}
